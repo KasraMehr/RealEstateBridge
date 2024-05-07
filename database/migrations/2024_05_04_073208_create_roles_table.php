@@ -14,10 +14,10 @@ return new class extends Migration
         Schema::create('roles', function (Blueprint $table) {
             $table->id();
             $table->string("title");
-            $table->unsignedBigInteger("permission_id");
+            //$table->unsignedBigInteger("permission_id");
             $table->timestamps();
 
-            $table->foreign('permission_id')->references('id')->on('roles')->onDelete('cascade');
+            //$table->foreign('permission_id')->references('id')->on('permissions')->onDelete('cascade');
         });
     }
 

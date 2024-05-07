@@ -118,6 +118,16 @@
                             </div>
                         </div>
 
+{{--                        <div class="row mb-3">--}}
+{{--                            <label for="role" class="form-label">role</label><br>--}}
+{{--                            <select id="role" name="role_id" class="form-control">--}}
+{{--                                <option value="Live" {{ old('property_status') == '1' ? 'selected' : '' }}>Live</option>--}}
+{{--                                <option value="Deleted" {{ old('property_status') == '0' ? 'selected' : '' }}>Deleted</option>--}}
+{{--                            </select><br>--}}
+{{--                        </div>--}}
+
+
+
                         <div class="row mb-3">
                             <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
 
